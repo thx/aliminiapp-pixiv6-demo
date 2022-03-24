@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/complex-resource-loader/index",
+    "pages/application/index",
+    "pages/container/index",
+    "pages/text/index",
+    "pages/textureswap/index",
+    "pages/tiling/index",
+    "pages/tinting/index",
+    "pages/filter_colormatrix/index",
+    "pages/blendmodes/index",
+    "pages/rope/index",
+    "pages/filter_blur/index",
+    "pages/graphics/index",
+    "pages/starwarp/index",
+    "pages/graphics_dynamic/index",
+    "pages/mask_graphics/index",
+    "pages/mask_sprite/index",
+    "pages/particle/index",
+    "pages/interaction_drag/index",
+    "pages/interaction_click/index",
+    "pages/slots/index",
+    "pages/scratchcard/index",
+    "pages/rendertexture/index",
+    "pages/apng/index",
+    "pages/animate_pixi-animate/index",
+    "pages/capture-image/index",
+    "pages/compressed-texture/index"
+    
+  ],
+  "window": {
+    "defaultTitle": "Pixi-v5/6-AliMiniApp-Examples",
+    "allowsBounceVertical": "NO",
+    "enableSkia": "true"
+  }
+}

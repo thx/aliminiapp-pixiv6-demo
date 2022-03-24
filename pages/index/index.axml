@@ -1,0 +1,5 @@
+<view>
+  <view a:for="{{pages}}">
+    <navigator style="width:750rpx" open-type="navigateTo" url="{{item.src}}">{{item.label}}</navigator>
+  </view>
+</view>

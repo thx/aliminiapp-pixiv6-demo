@@ -1,0 +1,14 @@
+navigator {
+  background-color: #E20050;
+  color: #fff;
+  margin-bottom: 10rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  text-align: center;
+  width:750rpx
+}
+
+.navigator-hover {
+  background-color: lightskyblue;
+  color: #fff;
+}

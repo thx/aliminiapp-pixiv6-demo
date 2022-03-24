@@ -1,0 +1,27 @@
+<view class="page-game">
+  <view>一张纹理</view>
+  <view class="control">
+    <button class="btn" onTap="load_astc">ASTC压缩纹理</button>
+    <button class="btn" onTap="load_etc">ETC压缩纹理</button>
+  </view>
+  
+  <view class="control">
+    <button class="btn" onTap="load_pvrtc">PVRTC压缩纹理</button>
+    <button class="btn" onTap="load_png">png原图</button>
+  </view>
+  <view>批量加载纹理(10张)</view>
+  
+  <view class="control">
+    <button class="btn" onTap="load_astc_2">ASTC压缩纹理</button>
+    <button class="btn" onTap="load_etc_2">ETC压缩纹理</button>
+  </view>
+  
+  <view class="control">
+    <button class="btn" onTap="load_pvrtc_2">PVRTC压缩纹理</button>
+    <button class="btn" onTap="load_png_2">png原图</button>
+  </view>
+  
+  
+  <pixi-canvas id="pixi-canvas" options={{appOptions}} destroyAppOnDidUnmount="true" onError="onPixiCanvasError" onDidUnmount="onPixiCanvasDidUnmount" 
+    onAppInit="onAppInit"></pixi-canvas>
+</view>

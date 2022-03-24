@@ -1,0 +1,6 @@
+<view class="page-game">
+    <view>
+      <text>v6版本的animate组件，需要使用2.0新版导出插件导出js,如果是旧版动画js文件，通过命令行进行转换 npx animate-upgrade -e path/to/myFile.js。详见 @tbminiapp/pixi-animate README</text>
+    </view>
+    <pixi-canvas id="pixi-canvas" options={{appOptions}} destroyAppOnDidUnmount="true" onError="onPixiCanvasError" onDidUnmount="onPixiCanvasDidUnmount" onAppInit="onAppInit"></pixi-canvas>
+</view>

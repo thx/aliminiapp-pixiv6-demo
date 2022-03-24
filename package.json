@@ -1,0 +1,9 @@
+{
+  "name": "pixi-miniprogram-v6-examples",
+  "version": "1.0.0",
+  "dependencies": {
+    "@tbminiapp/pixi-miniprogram-adapter": "1.0.23",
+    "@tbminiapp/pixi-miniprogram-canvas-v6 ": "^1.0.2",
+    "@tbminiapp/pixi-miniprogram-engine-v6": "^6.2.1-beta.7"
+  }
+}

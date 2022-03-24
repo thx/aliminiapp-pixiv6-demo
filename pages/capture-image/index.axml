@@ -1,0 +1,5 @@
+<view class="page-game">
+    <pixi-canvas id="pixi-canvas" options={{appOptions}} destroyAppOnDidUnmount="true" onError="onPixiCanvasError" onDidUnmount="onPixiCanvasDidUnmount" onAppInit="onAppInit"></pixi-canvas>
+    <button size="default" onTap="onCapture" type="primary" style="margin-top:10rpx">点击截图</button>
+    <image src="{{base64}}" style="width:{{appOptions.width}}rpx; height:{{appOptions.height}}rpx;margin-top:10rpx"/>
+</view>

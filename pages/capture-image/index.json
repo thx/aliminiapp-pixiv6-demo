@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+      "pixi-canvas": "@tbminiapp/pixi-miniprogram-canvas-v6/components/pixi-canvas/pixi-canvas"
+  }
+}

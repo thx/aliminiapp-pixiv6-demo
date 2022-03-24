@@ -1,0 +1,4 @@
+<view class="page-game">
+    <pixi-canvas canvasId="pixi-canvas" style="width:750rpx; height750rpx" options={{appOptions}} destroyAppOnDidUnmount="true" onError="onPixiCanvasError" onDidUnmount="onPixiCanvasDidUnmount" onAppInit="onAppInit"></pixi-canvas>
+    <pixi-canvas canvasId="pixi-canvas2" style="width:750rpx; height750rpx" options={{appOptions2}} destroyAppOnDidUnmount="true" onError="onPixiCanvasError" onDidUnmount="onPixiCanvasDidUnmount" onAppInit="onAppInit2"></pixi-canvas>
+</view>
