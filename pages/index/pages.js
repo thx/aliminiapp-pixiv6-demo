@@ -112,6 +112,10 @@ export default [
     "src": "/pages/starwarp/index"
   },
   {
+    "label": "毛笔字-calligraphy",
+    "src": "/pages/calligraphy/index"
+  },
+  {
     "label": "染色-Tint",
     "src": "/pages/tinting/index"
   }

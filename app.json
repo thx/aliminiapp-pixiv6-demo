@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/calligraphy/index",
     "pages/complex-resource-loader/index",
     "pages/application/index",
     "pages/container/index",
